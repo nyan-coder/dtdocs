@@ -5,28 +5,37 @@ const Sprites = () => {
         <section className="doc-section">
             <h2>Modificação de Sprites</h2>
             <p>Para alterar os sprites é preciso o uso do aplicativo <strong>“undertaleModTool”</strong>.</p>
-            <p>Abra o arquivo <code>data.win</code> do capítulo que você irá modificar, e abra a pasta dos “sprites” na parte esquerda da tela.</p>
+            <p>Abra o arquivo <code>data.win</code> do capitulo que você irá modificar, e abra a pasta dos “sprites” na parte esquerda da tela.</p>
             
             <div className="code-block" style={{textAlign: 'center', backgroundColor: '#000', padding: '2rem'}}>
                 <img src="/image1.png" alt="undertaleModTool interface" style={{maxWidth: '100%'}} />
             </div>
             
-            <p>Procure o sprite que você deseja modificar e o abra clicando 2x nele.</p>
-            <p>Arquivos dos quais possuem textos como lojas, placas e coisas do tipo normalmente têm 2 versões: a versão normal, e as <code>_ja</code> que são o mesmo sprite com o texto em japonês. Não é necessário alterar os arquivos <code>_ja</code>, afinal, eles só vão aparecer se você estiver na versão japonesa do jogo.</p>
+            <p>procure o sprite que você deseja modificar e o abra clicando 2x nele.</p>
+            
+            <div className="code-block" style={{textAlign: 'center', backgroundColor: '#000', padding: '2rem'}}>
+                <img src="/image4.png" alt="Selecionando o sprite" style={{maxWidth: '100%'}} />
+            </div>
+
+            <p>arquivos dos quais possuem textos como lojas, placas e coisas do tipo normalmente tem 2 versões, a versão normal, e as <code>_ja</code> que são o mesmo sprite com o texto em japonês, não é necessário alterar os arquivos <code>_ja</code>, afinal, eles só vão aparecer se você estiver na versão japonesa do jogo.</p>
             
             <p>Para alterar o sprite, clique 2x na área de “textures” ou clique nos três pontinhos.</p>
             
             <div className="code-block" style={{textAlign: 'center', backgroundColor: '#000', padding: '2rem'}}>
-                <img src="/image2.png" alt="Área de texturas" style={{maxWidth: '100%'}} />
+                <img src="/image3.png" alt="Área de texturas" style={{maxWidth: '100%'}} />
             </div>
 
-            <p>Quando essa tela abrir, clique em “Export” para baixar a imagem, ou em “Import” para baixar a imagem.</p>
+            <p>quando essa tela abrir, clique em “Export” para baixar a imagem, ou em “Import” para baixar a imagem</p>
             
             <div className="code-block" style={{textAlign: 'center', backgroundColor: '#000', padding: '2rem'}}>
-                <img src="/image3.png" alt="Export/Import" style={{maxWidth: '100%'}} />
+                <img src="/image5.png" alt="Export/Import" style={{maxWidth: '100%'}} />
             </div>
             
             <p>Após isso, só é preciso salvar este novo data substituindo o antigo, e já estará funcionando no jogo.</p>
+
+            <div className="code-block" style={{textAlign: 'center', backgroundColor: '#000', padding: '2rem'}}>
+                <img src="/image2.png" alt="Resultado no jogo" style={{maxWidth: '100%'}} />
+            </div>
         </section>
     );
 };
