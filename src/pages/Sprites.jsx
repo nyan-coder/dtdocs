@@ -19,6 +19,14 @@ const Sprites = () => {
             <div className="code-block" style={{textAlign: 'center', backgroundColor: '#000', padding: '2rem'}}>
                 <img src="/image2.png" alt="Área de texturas" style={{maxWidth: '100%'}} />
             </div>
+
+            <p>Quando essa tela abrir, clique em “Export” para baixar a imagem, ou em “Import” para baixar a imagem.</p>
+            
+            <div className="code-block" style={{textAlign: 'center', backgroundColor: '#000', padding: '2rem'}}>
+                <img src="/image3.png" alt="Export/Import" style={{maxWidth: '100%'}} />
+            </div>
+            
+            <p>Após isso, só é preciso salvar este novo data substituindo o antigo, e já estará funcionando no jogo.</p>
         </section>
     );
 };
