@@ -18,7 +18,12 @@ const Tradutores = () => {
             <p>Tem basicamente duas formas de fazer a tradução:</p>
             <ul>
                 <li><strong>Método Raiz (Tradicional):</strong> Editando o arquivo <code>.json</code> diretamente usando programas como o <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">Visual Studio Code</a> ou o <a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer">Sublime Text</a>, traduzindo as falas ali mesmo no código.</li>
-                <li><strong>Método Prático (Ferramenta Oficial):</strong> Usando o site próprio do estúdio para tradução. Mas calma lá, você só vai ter acesso a ele depois de passar pela etapa de seleção dos tradutores!</li>
+                <li>
+                    <strong>Método Prático (Ferramenta Oficial):</strong> Utilizando o <a href="https://deltadub.vercel.app" target="_blank" rel="noreferrer">deltadub.vercel.app</a>, o site próprio do estúdio. É por lá que iremos traduzir DELTARUNE, UNDERTALE, e talvez outros projetos futuramente!<br />
+                    <span style={{ display: 'block', marginTop: '8px' }}>
+                        <strong>Acesso:</strong> É necessário pedir um login e senha para <strong>@leleplumi</strong> no Discord, caso você ainda não tenha.
+                    </span>
+                </li>
             </ul>
 
             <h3>Caracteres Especiais e Frescurinhas (Formatação)</h3>
