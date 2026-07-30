@@ -5,7 +5,7 @@ const Sidebar = () => {
     return (
         <aside className="sidebar">
             <div className="sidebar-header">
-                <img src="/heart.svg" alt="Heart Icon" className="logo" />
+                <img src="/heartUT.png" alt="Heart Icon" className="logo" />
                 <h2>DeterminationDelta</h2>
             </div>
             <nav className="sidebar-nav">
