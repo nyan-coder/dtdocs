@@ -14,7 +14,7 @@ const Sprites = () => {
                     <img src="/aviso-data.png" alt="Aviso sobre pasta correta do data.win" style={{maxWidth: '100%'}} />
                 </div>
             </div>
-            <p>Para alterar os sprites é preciso o uso do aplicativo <strong>“undertaleModTool”</strong>.</p>
+            <p>Para alterar os sprites é preciso o uso do aplicativo <a href="https://github.com/UnderminersTeam/UndertaleModTool/releases/tag/0.9.1.2" target="_blank" rel="noopener noreferrer"><strong>UndertaleModTool</strong></a>.</p>
             <p>Abra o arquivo <code>data.win</code> do capitulo que você irá modificar, e abra a pasta dos “sprites” na parte esquerda da tela.</p>
             
             <div className="code-block" style={{textAlign: 'center', backgroundColor: '#000', padding: '2rem'}}>
