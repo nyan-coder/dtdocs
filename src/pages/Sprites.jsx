@@ -4,6 +4,16 @@ const Sprites = () => {
     return (
         <section className="doc-section">
             <h2>Modificação de Sprites</h2>
+
+            <div style={{ backgroundColor: '#ffcc00', color: '#000', padding: '1.5rem', borderRadius: '8px', marginBottom: '2rem' }}>
+                <strong>AVISO:</strong><br /><br />
+                É sempre necessário verificar se o data.win que está aberto, é da pasta do capítulo certo que estamos trabalhando no momento. Sempre mexa no data que está em pastas que contem o prefixo "chapterX_windows", por exemplo: <code>chapter1_windows</code><br /><br />
+                Não mexa no data que está na pasta <code>DELTARUNE</code>
+                
+                <div className="code-block" style={{textAlign: 'center', backgroundColor: '#000', padding: '2rem', marginTop: '1rem', borderRadius: '8px'}}>
+                    <img src="/aviso-data.png" alt="Aviso sobre pasta correta do data.win" style={{maxWidth: '100%'}} />
+                </div>
+            </div>
             <p>Para alterar os sprites é preciso o uso do aplicativo <strong>“undertaleModTool”</strong>.</p>
             <p>Abra o arquivo <code>data.win</code> do capitulo que você irá modificar, e abra a pasta dos “sprites” na parte esquerda da tela.</p>
             
