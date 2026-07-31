@@ -5,7 +5,7 @@ const Sprites = () => {
         <section className="doc-section">
             <h2>Modificação de Sprites</h2>
 
-            <div style={{ backgroundColor: '#ffcc00', color: '#000', padding: '1.5rem', borderRadius: '8px', marginBottom: '2rem' }}>
+            <div className="alert alert-danger">
                 <strong>AVISO:</strong><br /><br />
                 É sempre necessário verificar se o data.win que está aberto, é da pasta do capítulo certo que estamos trabalhando no momento. Sempre mexa no data que está em pastas que contem o prefixo "chapterX_windows", por exemplo: <code>chapter1_windows</code><br /><br />
                 Não mexa no data que está na pasta <code>DELTARUNE</code>
