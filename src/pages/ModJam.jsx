@@ -7,9 +7,9 @@ const ModJam = () => {
             
             <h3>O que é necessário para a ModJam?</h3>
             <ol>
-                <li>Criar um sistema simples que pegue o ID de fala atual, algo como: <code>obj_lancerboss_slash_Step_0_gml_30_0</code></li>
+                <li>Criar um sistema simples que pegue o ID de TextBox atual do jogo, algo como: <code>obj_lancerboss_slash_Step_0_gml_30_0</code></li>
                 <li>É necessário, através de outro sistema, reproduzir um áudio, que esteja associado ao tal ID, realizando assim, uma "Dublagem do jogo"</li>
-                <li>Mudança de sprites, mudar sprites pelo UndertaleModTool, que irá ser usado para traduzir sprites de coisas como lojas, estruturas e como falas do próprio Tenna (Apenas exemplo, trabalharemos no capítulo 1)</li>
+                <li>Mudança de sprites, mudar sprites pelo <a href="https://github.com/UnderminersTeam/UndertaleModTool/releases/tag/0.9.1.2" target="_blank" rel="noopener noreferrer"><strong>UndertaleModTool</strong></a>, que irá ser usado para traduzir sprites de coisas como lojas, estruturas e como falas do próprio Tenna (Apenas exemplo, trabalharemos no capítulo 1)</li>
             </ol>
 
             <h3>Pontos Extras:</h3>
