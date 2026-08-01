@@ -14,6 +14,7 @@ const Sidebar = () => {
                     <li><NavLink to="/tradutores" className={({isActive}) => isActive ? "active" : ""}>Guia para Tradutores</NavLink></li>
                     <li><NavLink to="/mixers" className={({isActive}) => isActive ? "active" : ""}>Guia para Mixers</NavLink></li>
                     <li><NavLink to="/sprites" className={({isActive}) => isActive ? "active" : ""}>Guia de Sprites</NavLink></li>
+                    <li><NavLink to="/modjam" className={({isActive}) => isActive ? "active" : ""}>ModJam</NavLink></li>
                 </ul>
             </nav>
         </aside>

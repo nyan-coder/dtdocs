@@ -5,6 +5,7 @@ import Intro from './pages/Intro';
 import Tradutores from './pages/Tradutores';
 import Mixers from './pages/Mixers';
 import Sprites from './pages/Sprites';
+import ModJam from './pages/ModJam';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/tradutores" element={<Tradutores />} />
             <Route path="/mixers" element={<Mixers />} />
             <Route path="/sprites" element={<Sprites />} />
+            <Route path="/modjam" element={<ModJam />} />
           </Routes>
         </main>
       </div>
